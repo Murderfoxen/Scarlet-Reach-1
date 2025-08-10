@@ -5581,7 +5581,6 @@
 "bPF" = (
 /obj/structure/fluff/railing/border{
 	dir = 4;
-	pixel_x = 4;
 	pixel_y = 0
 	},
 /turf/open/floor/rogue/grass,
@@ -43602,8 +43601,8 @@
 "oil" = (
 /obj/structure/flora/roguegrass,
 /obj/structure/roguemachine/noticeboard{
-	pixel_y = -12;
-	pixel_x = 2
+	pixel_y = -13;
+	pixel_x = 1
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/exposed/town/keep)
@@ -47772,7 +47771,6 @@
 /obj/structure/flora/roguegrass,
 /obj/structure/fluff/railing/border{
 	dir = 4;
-	pixel_x = 4;
 	pixel_y = 0
 	},
 /turf/open/floor/rogue/grass,
