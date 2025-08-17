@@ -9929,7 +9929,7 @@
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/under/cave/mazedungeon)
 "deE" = (
-/obj/item/natural/rock,
+/obj/structure/flora/roguegrass/bush/wall/tall,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/woods)
 "deJ" = (
@@ -14574,6 +14574,20 @@
 /obj/item/clothing/suit/roguetown/shirt/dress/gen/random,
 /turf/open/floor/rogue/blocks/newstone/alt,
 /area/rogue/under/cavewet/bogcaves/sunkencity)
+"eAy" = (
+/obj/structure/closet/crate/chest/wicker,
+/obj/item/natural/feather,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/book_crafting_kit,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/woods)
 "eAA" = (
 /obj/structure/roguewindow/openclose,
 /turf/open/floor/rogue/wood,
@@ -20392,7 +20406,7 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/cave)
 "grN" = (
-/obj/item/natural/rock,
+/obj/structure/flora/roguegrass/bush/wall/tall,
 /turf/open/floor/rogue/grassyel,
 /area/rogue/outdoors/woods)
 "grO" = (
@@ -22751,6 +22765,11 @@
 	smooth_icon = null
 	},
 /area/rogue/indoors/town)
+"hcF" = (
+/obj/structure/flora/newleaf,
+/obj/structure/flora/roguegrass/bush/wall/tall,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/woods)
 "hcI" = (
 /obj/structure/fluff/railing/fence,
 /turf/open/floor/rogue/dirt/road,
@@ -24479,14 +24498,9 @@
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/cave/fishmandungeon)
 "hCe" = (
-/obj/structure/fluff/railing/border{
-	dir = 6
-	},
-/obj/structure/roguemachine/mail{
-	mailtag = "Grove"
-	},
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/woods)
+/obj/structure/flora/roguegrass/bush/wall/tall,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/woods)
 "hCg" = (
 /obj/structure/rack/rogue{
 	density = 0;
@@ -26730,6 +26744,10 @@
 	},
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors/shelter)
+"imi" = (
+/obj/structure/flora/roguegrass/bush/wall/tall,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/woods)
 "imq" = (
 /obj/structure/closet/crate/roguecloset,
 /obj/item/candle/yellow,
@@ -47763,20 +47781,6 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement/keep)
-"oPz" = (
-/obj/structure/closet/crate/chest/wicker,
-/obj/item/natural/feather,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper/scroll,
-/obj/item/paper/scroll,
-/obj/item/paper/scroll,
-/obj/item/paper/scroll,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/book_crafting_kit,
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/woods)
 "oPF" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -50813,6 +50817,15 @@
 	icon_state = "roof"
 	},
 /area/rogue/under/underdark)
+"pMi" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/obj/structure/roguemachine/mail{
+	mailtag = "Grove"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/woods)
 "pMj" = (
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/rogue/dirt,
@@ -72814,6 +72827,7 @@
 /area/rogue/outdoors/town)
 "wzm" = (
 /obj/structure/closet/crate/chest/wicker,
+/obj/item/rope,
 /obj/item/rope,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter/woods)
@@ -323921,11 +323935,11 @@ aBB
 eMx
 bIK
 lXx
-idM
+hCe
 iUP
 bEt
 nAQ
-idM
+hCe
 lgF
 eMx
 aBB
@@ -324823,7 +324837,7 @@ aBB
 aBB
 aBB
 eMx
-idM
+hCe
 eXH
 eFT
 idM
@@ -327993,7 +328007,7 @@ deE
 spm
 kqa
 nAQ
-idM
+hCe
 eMT
 nIc
 ppp
@@ -339299,7 +339313,7 @@ lue
 lpW
 jFA
 fWu
-fWu
+hcF
 dkZ
 dkZ
 xoi
@@ -341557,9 +341571,9 @@ eMx
 iUP
 jFA
 jFA
-iOt
+imi
 jFA
-iOt
+imi
 jFA
 sZa
 jFA
@@ -445065,7 +445079,7 @@ aBB
 aBB
 aBB
 aBB
-oPz
+eAy
 qOD
 qOD
 rbX
@@ -446422,7 +446436,7 @@ cHP
 oJW
 qCr
 mAs
-hCe
+pMi
 uii
 eTR
 bQg
