@@ -972,6 +972,12 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	droning_sound_dusk = null
 	droning_sound_night = null
 
+/area/rogue/outdoors/exposed/druid
+	icon_state = "druid"
+	droning_sound = 'sound/music/area/druid.ogg'
+	droning_sound_dusk = null
+	droning_sound_night = null
+
 /// under
 
 
