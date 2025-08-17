@@ -22956,7 +22956,7 @@
 /turf/open/water/swamp,
 /area/rogue/outdoors/beach)
 "hfu" = (
-/obj/structure/bookcase/random/religion,
+/obj/structure/roguemachine/scomm/l,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/woods)
 "hfx" = (
@@ -24479,12 +24479,12 @@
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/cave/fishmandungeon)
 "hCe" = (
-/obj/structure/closet/crate/chest/wicker,
-/obj/item/natural/feather,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper/scroll,
-/obj/item/paper/scroll,
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/obj/structure/roguemachine/mail{
+	mailtag = "Grove"
+	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/woods)
 "hCg" = (
@@ -47763,6 +47763,20 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement/keep)
+"oPz" = (
+/obj/structure/closet/crate/chest/wicker,
+/obj/item/natural/feather,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/book_crafting_kit,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/woods)
 "oPF" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -445051,7 +445065,7 @@ aBB
 aBB
 aBB
 aBB
-hYR
+oPz
 qOD
 qOD
 rbX
@@ -446408,7 +446422,7 @@ cHP
 oJW
 qCr
 mAs
-hOX
+hCe
 uii
 eTR
 bQg
@@ -447769,7 +447783,7 @@ szH
 gnN
 qOD
 qOD
-hCe
+qOD
 eTR
 nrC
 aBB
